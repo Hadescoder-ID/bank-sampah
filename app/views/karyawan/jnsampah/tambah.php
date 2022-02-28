@@ -1,0 +1,11 @@
+<div class="container mt-3">
+	<form action="<?= BASEURL; ?>/Jenis_Sampah/simpansampah" method="POST" enctype="multipart/form-data">
+		<input class="form-control form-control-lg mt-2" type="text" name="kat" placeholder="Kategori">
+		<input class="form-control form-control-lg mt-2" type="text" name="jenis" placeholder="Jenis Sampah">
+		<input class="form-control form-control-lg mt-2" type="text" name="jumlah" placeholder="Jumlah Sampah">
+        <input class="form-control form-control-lg mt-2" type="text" name="jual" placeholder="Harga Jual">
+        <input class="form-control form-control-lg mt-2" type="text" name="beli" placeholder="Harga Beli">
+		<input type="submit" value="simpan" class="btn btn-success mt-2">
+		<a href="<?= BASEURL; ?>/Jenis_Sampah" class="btn btn-primary mt-2">Kembali</a>
+	</form>
+</div>
